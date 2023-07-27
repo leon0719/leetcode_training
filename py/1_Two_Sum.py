@@ -1,13 +1,15 @@
 from typing import List
 
+
 def twoSum(nums: List[int], target: int) -> List[int]:
     hashmap = {}
-    for i in range(len(nums)) :
+    for i in range(len(nums)):
         temp = target - nums[i]
         if temp not in hashmap:
             hashmap[nums[i]] = i
         else:
-            return [hashmap[temp], i ]
+            return [hashmap[temp], i]
+
 
 def test_twoSum():
     # unit test twoSum
@@ -16,6 +18,8 @@ def test_twoSum():
     assert (twoSum(nums, target) == [0, 1])
     print('Pass')
     print('---------------------')
+
+
 def test_twoSum2():
     # unit test twoSum
     nums = [3, 2, 4]
