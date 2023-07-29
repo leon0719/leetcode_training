@@ -1,6 +1,6 @@
 def is_valid(s: str) -> bool:
     stack = []
-    mapping = {'(': ')', '[': ']', '{': '}'}
+    mapping = {"(": ")", "[": "]", "{": "}"}
     for c in s:
         if c in mapping:
             stack.append(c)
@@ -9,9 +9,6 @@ def is_valid(s: str) -> bool:
     return not stack
 
 
-
-
-
-if __name__ == '__main__':
-    s = '{[()]}'
+if __name__ == "__main__":
+    s = "{[()]}"
     print(is_valid(s))

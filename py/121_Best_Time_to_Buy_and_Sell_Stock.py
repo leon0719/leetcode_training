@@ -1,6 +1,7 @@
 from typing import List
 
-def maxProfit(prices:List[int])-> int:
+
+def maxProfit(prices: List[int]) -> int:
     """
     :type prices: List[int]
     :rtype: int
@@ -22,8 +23,8 @@ def maxProfit(prices:List[int])-> int:
 
 # unit test maxProfit
 def test_maxProfit():
-    assert maxProfit([7,1,5,3,6,4]) == 5
-    assert maxProfit([7,6,4,3,1]) == 0
-    assert maxProfit([1,2]) == 1
-    assert maxProfit([3,3]) == 0
-    assert maxProfit([1,2,4]) == 3
+    assert maxProfit([7, 1, 5, 3, 6, 4]) == 5
+    assert maxProfit([7, 6, 4, 3, 1]) == 0
+    assert maxProfit([1, 2]) == 1
+    assert maxProfit([3, 3]) == 0
+    assert maxProfit([1, 2, 4]) == 3

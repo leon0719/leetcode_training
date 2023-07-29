@@ -15,15 +15,15 @@ def test_twoSum():
     # unit test twoSum
     nums = [2, 7, 11, 15]
     target = 9
-    assert (twoSum(nums, target) == [0, 1])
-    print('Pass')
-    print('---------------------')
+    assert twoSum(nums, target) == [0, 1]
+    print("Pass")
+    print("---------------------")
 
 
 def test_twoSum2():
     # unit test twoSum
     nums = [3, 2, 4]
     target = 6
-    assert (twoSum(nums, target) == [1, 2])
-    print('Pass')
-    print('---------------------')
+    assert twoSum(nums, target) == [1, 2]
+    print("Pass")
+    print("---------------------")

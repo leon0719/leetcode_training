@@ -1,4 +1,6 @@
 from typing import List
+
+
 def removeElement(nums: List[int], val: int) -> int:
     i = 0
     for j in range(len(nums)):
@@ -10,9 +12,8 @@ def removeElement(nums: List[int], val: int) -> int:
 
 # unit test removeElement
 
-def test_removeElement():
-    nums = [3,2,2,3]
-    val = 3
-    assert (removeElement(nums, val) == 2)
-    
 
+def test_removeElement():
+    nums = [3, 2, 2, 3]
+    val = 3
+    assert removeElement(nums, val) == 2

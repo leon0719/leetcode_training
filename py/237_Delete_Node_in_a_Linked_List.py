@@ -3,8 +3,10 @@ class ListNode:
         self.val = x
         self.next = None
 
+
 class Solution:
     def deleteNode(self, node):
-        node.next,node.val = node.next.next ,node.next.val
+        node.next, node.val = node.next.next, node.next.val
 
-#只能在leetcode跑
+
+# 只能在leetcode跑

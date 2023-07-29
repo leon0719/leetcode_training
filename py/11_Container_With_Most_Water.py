@@ -15,6 +15,6 @@ def maxArea(height: List[int]) -> int:
     return max_area
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # unit test
     print(maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7]))
