@@ -25,8 +25,8 @@ def test_hasCycle():
     head.next.next = ListNode(0)
     head.next.next.next = ListNode(-4)
     head.next.next.next.next = head.next  # ListNode(2)
-    assert hasCycle(head) == True
+    assert hasCycle(head) is True
     head.next.next.next.next = head.next.next
-    assert hasCycle(head) == True
+    assert hasCycle(head) is True
     head.next.next.next.next = None
-    assert hasCycle(head) == False
+    assert hasCycle(head) is False
