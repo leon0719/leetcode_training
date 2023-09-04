@@ -20,4 +20,4 @@ def maxSubArray(s: List) -> int:
 
 
 if __name__ == "__main__":
-    print(maxSubArray(test3))
+    print(maxSubArray(test1))

@@ -41,6 +41,7 @@ def postOrder(node):
     inOrder(node.right)  # 發現也沒有 所以也return
     print(node.data)  # 最後就執行這一行
 
+
 preTravel(new)
 print("====")
 inOrder(new)
